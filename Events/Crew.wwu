@@ -1,0 +1,1452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB61CEEE-CE37-4B62-8ED5-182F948B1871}" SchemaVersion="97" RootDocumentID="{B34051A6-F1D3-4558-A9ED-EB78F1DC3BDE}">
+	<Events>
+		<WorkUnit Name="Crew" ID="{CB61CEEE-CE37-4B62-8ED5-182F948B1871}" OwnerID="{B34051A6-F1D3-4558-A9ED-EB78F1DC3BDE}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="QC" ID="{D97870D5-4F62-479C-A2E3-D8822061BE88}" ShortID="544456191">
+					<ChildrenList>
+						<Event Name="RXD_QCOMMAND_POSITIVE" ID="{2B8CE179-FB43-4448-9B90-B2C55CFCEA9F}">
+							<ChildrenList>
+								<Action Name="" ID="{0E4C7DC9-0313-45B8-BF61-3A02B723B69B}" ShortID="651325821">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{69ACC3CB-4504-4F1C-B3C5-078229EC3601}" ShortID="383481414">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_807654130" ID="{513DE87D-D83D-487E-9468-2F8608001DE0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D1D263D6-736C-4C95-9775-2C0A78C77E2C}" ShortID="1023475216">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="426257817" ID="{1CA87E57-23A7-4252-A0EA-57B486C8C936}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_QCOMMAND_NEGATIVE" ID="{0AAAB534-BA59-41BA-B7FD-DBA321C79539}">
+							<ChildrenList>
+								<Action Name="" ID="{CE868094-506D-4E62-B52C-4DD7963D9909}" ShortID="730149661">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{F0675F98-9266-4DE8-92C3-695C2409D9FE}" ShortID="945061078">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="negetive" ID="{4DC5190B-9151-450A-837D-A771159B8A82}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_QCOMMAND_HOLD_POSITION" ID="{97F7F689-D858-466B-BD27-FEA49E6BDA13}">
+							<ChildrenList>
+								<Action Name="" ID="{00FFDE36-96F5-47F2-94D7-B92CF79AE8B3}" ShortID="1061996036">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{9552A27F-9BB9-4AB0-9E51-F93392D2C544}" ShortID="25162767">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_438681490" ID="{AE94A82E-1F27-432C-A1F2-7BBA4E043006}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A2160B40-E90B-4D28-AE82-A8DCAF6F1FBB}" ShortID="473287838">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="578989487" ID="{58E6201E-D5FF-4175-83C7-8FF0B22A2E63}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_QCOMMAND_HELP_ME" ID="{0CA09258-D1AB-4295-889C-9B13DB3530C3}">
+							<ChildrenList>
+								<Action Name="" ID="{85F2BEB7-DEB7-49A8-AF12-5D21014CAB4E}" ShortID="732833364">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{B6AB886D-0CB1-4916-82EE-45C83BFC189B}" ShortID="510141042">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_990463167" ID="{4C88260A-167E-4B96-AD93-E72EE7BA527A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5397DE31-4B1B-485A-BDBD-28F3636FE73B}" ShortID="215869130">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="255963714" ID="{86141958-F9B2-4170-A04F-67D19828BE9E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_QCOMMAND_CAPTURE_BASE" ID="{CA07DDF1-6B76-496A-AD44-2EF1C28499D6}">
+							<ChildrenList>
+								<Action Name="" ID="{0D34F257-E8B8-4CEF-A684-ECDAA2565CF4}" ShortID="265047647">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{2A7EA6BB-247A-43C8-A9E2-4DD50085C5D8}" ShortID="141257401">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="attack" ID="{945967F1-0B8B-4C8E-96ED-A050D3E5A134}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_QCOMMAND_DEFEND_BASE" ID="{BD478B59-4091-4A65-A5C4-0CEE9DB4F49D}">
+							<ChildrenList>
+								<Action Name="" ID="{CA7EBACA-AA17-46D9-AAE8-7875C5541C29}" ShortID="805247173">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{699CA0FF-FCEC-4592-B21B-9E9F445B1996}" ShortID="840090034">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="578989487" ID="{58E6201E-D5FF-4175-83C7-8FF0B22A2E63}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_QCOMMAND_ATTACK" ID="{42C7B006-AFCF-40E7-B9B8-A75B501F1B37}">
+							<ChildrenList>
+								<Action Name="" ID="{4A1BD56F-DCAC-415E-A58E-92A28ADAE47F}" ShortID="70517626">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{C796808B-6AF0-422C-A617-3F94EF5460C5}" ShortID="696625640">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="attack" ID="{945967F1-0B8B-4C8E-96ED-A050D3E5A134}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_QCOMMAND_ATTACK_TARGET" ID="{8B0D0C85-1DD6-4EDA-877F-2A82E31552F5}">
+							<ChildrenList>
+								<Action Name="" ID="{93C3C880-D411-4C84-8EC0-42C19E4235CA}" ShortID="74449056">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+								<Action Name="" ID="{CF98BDF6-7A8C-4AEC-B2FE-BC936293BF20}" ShortID="761623526">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="578989487" ID="{58E6201E-D5FF-4175-83C7-8FF0B22A2E63}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="VC" ID="{55DC052D-6F30-4754-BE74-370C224E22AA}" ShortID="895145679">
+					<ChildrenList>
+						<Event Name="RXD_surveying_devices_destroyed" ID="{19EF85E5-3152-4C61-8EB8-74A3998BCDF5}">
+							<ChildrenList>
+								<Action Name="" ID="{E0C4DF1F-6FB3-4510-BF03-187A14958673}" ShortID="1070002860">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{99E5FAD5-884A-4161-A055-4ED9D688D5E8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DCEC01E7-A7AD-43FC-B431-AC8DC6F178F2}" ShortID="373244150">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{FC3B9414-C0C0-467C-80CC-A45C911B8678}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{32090841-80A7-46B2-BC12-3E769F1D2943}" ShortID="798893988">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="830383238" ID="{2722C53C-59AE-443C-9A92-240FDF49D13F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_gun_destroyed" ID="{7CC6238F-4985-44C5-97CA-702636D91D29}">
+							<ChildrenList>
+								<Action Name="" ID="{47E07013-B76C-4CBB-9D88-B32DEBC16F95}" ShortID="294691814">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{27F165C5-A5B7-492B-8608-7F8E07EA5827}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A784B350-B28E-4024-885D-CF7906636B75}" ShortID="551638928">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{F3DCBDE3-1288-4178-B910-ECDEBDB6D185}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_turret_rotator_damaged" ID="{19CB47B3-8C80-4030-9AE6-E38F3CF665E0}">
+							<ChildrenList>
+								<Action Name="" ID="{5D2579D8-3D78-418D-AFB8-5D614804AD56}" ShortID="749653941">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{F7F6BE6D-F746-4424-8A98-FBD81C4F1426}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{87074E84-5997-4F9A-B1D8-53D9F469AF48}" ShortID="870812904">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{25EDF270-F025-4C8B-B176-8712F3F7E9E5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_turret_rotator_functional" ID="{16DD5DC5-4EA5-4F53-9C90-E46F945A5BF9}">
+							<ChildrenList>
+								<Action Name="" ID="{67B7BFED-E28D-49D1-A2D4-D6E6F191BD4D}" ShortID="873943610">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{5D84F396-343A-4D09-B420-478577DB04F4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{753B1979-C607-478E-BB0B-E26A0F9B81B4}" ShortID="818257330">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{8728FB23-3380-40A2-BB58-A4795965D5B0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_engine_functional" ID="{6EFB6193-B208-4D8E-8AC6-EFF08F83ABA4}">
+							<ChildrenList>
+								<Action Name="" ID="{BEDB0FF2-9525-4C34-B2D2-688555C7A71C}" ShortID="530926041">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{3103CA61-FD07-4C21-B8E6-3A20E0D2D358}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{341CF1B8-17EE-4C57-B359-BF9E04564910}" ShortID="331946733">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{2BCF86F1-FACA-4733-98DF-FFF29D9725D9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_engine_destroyed" ID="{ACF88F8A-96B4-46C8-AAC8-346B82A9C6B9}">
+							<ChildrenList>
+								<Action Name="" ID="{CBAB11C2-837E-4C96-909D-3B969C820DF1}" ShortID="382427543">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{1B7CB546-CC2D-47D8-9C5D-9BE8083D4358}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{503EAB7C-5970-4F10-A27E-504EB97223B9}" ShortID="574892208">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{C4B7A480-8CBA-469D-8518-9148D85CB677}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_NO_PIERCING_BY_PLAYER" ID="{A3E35079-44C9-4A4D-83AE-CC89E6F01F46}">
+							<ChildrenList>
+								<Action Name="" ID="{AB1A8CB6-2731-4191-86EA-801A102AB0A7}" ShortID="17004333">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{71E943D7-3E10-4AE9-AB7D-FD9A03D3115C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B01E88FC-12C4-4CA2-917B-93851C8BB004}" ShortID="687253709">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{0CBE9AAB-F973-46A5-84C5-922E4520EB2D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DE32DE36-469A-447E-A461-0E8A64ED7896}" ShortID="661012735">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_892355650" ID="{028E3A84-4D5B-4DB3-A6B5-53E770143EF5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_VOICE_START_BATTLE" ID="{25DD9FC0-7E23-4DAD-8CD7-33966F5EE87D}">
+							<ChildrenList>
+								<Action Name="" ID="{6E6E5D21-6285-47DE-943B-63EC66D47503}" ShortID="732968994">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{9D2D3112-5D58-4A06-A174-3CFDA5A8E77C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{00752805-9E79-4CF6-967D-D8240D8A27D9}" ShortID="523613887">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{D681C479-B6D7-4C60-853D-C572DF93F3AA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_BY_PLAYER" ID="{8F116B3C-B205-4587-A6BE-6FF543B6922D}">
+							<ChildrenList>
+								<Action Name="" ID="{93E5B931-5B5C-42AD-B1BC-46FB3BFDEAFF}" ShortID="47004562">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{43AEC678-58AC-4EAA-B982-0E4B6E8A1F2D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{40F4ACB9-B626-45AD-AC9C-A05739C147E3}" ShortID="580616258">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{2313FCA3-EBA5-49A6-B0FF-04B17C333C9D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{873116A7-5A12-4F1C-879D-C233349980AF}" ShortID="668522761">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_892355650" ID="{0F7CF61E-271F-4EE0-A50E-55A130037D94}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_RICOCHET_BY_PLAYER" ID="{26365F03-B7E4-4A53-B848-FE8C4EB7B5F7}">
+							<ChildrenList>
+								<Action Name="" ID="{439B26E6-C54B-44F7-ABB2-305C14F49FA8}" ShortID="428214279">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{F58E2A61-F6C7-441C-9B06-C2A0354C02FF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6BD84721-E874-4541-ACFF-2CE40698D92E}" ShortID="151896503">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{80391807-220A-41ED-86A3-42878F8E1847}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C5C09AD9-CBAA-42C1-88CC-012CAE4B0F0A}" ShortID="996107363">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_892355650" ID="{5822B496-0782-4D13-8F0E-003F8F5268CF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER" ID="{F0F52ACF-EDF3-49F4-A74C-3DA8C392D105}">
+							<ChildrenList>
+								<Action Name="" ID="{ECF0BAF6-DB75-440F-97F2-0083C9FD8314}" ShortID="404255453">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{19CA5DF2-E5AA-4DDE-86D4-35AF3AACED69}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FDF24122-C174-46F8-8A48-19842BB2BD41}" ShortID="421093158">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{9064220D-206E-4C56-AAC3-D794894C64FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FF9B037E-30DA-4E4D-BC17-04F70E39B768}" ShortID="266204894">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="628054595" ID="{57C9B7FD-4903-42F1-B2C9-73B00FD7ACFB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_HP_DAMAGED_BY_PROJECTILE_BY_PLAYER" ID="{DBE9E8C7-69FD-4916-AD89-805D6359DC5C}">
+							<ChildrenList>
+								<Action Name="" ID="{E99506C4-C550-4882-8093-2BCB9F91D27C}" ShortID="530284126">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{8D858201-B071-46A6-BAF6-B8C2F33DE1F1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6D62A13A-7B31-421D-8592-1B601689F002}" ShortID="545244453">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{C6310270-36EC-45E7-AAAF-433FA7BBC66C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2B1BB2C1-EAF5-4FA4-B176-A12183B25EAA}" ShortID="375271030">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_279857248" ID="{F5B0162E-80FE-4074-9752-FA18D33F8E98}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_HP_DAMAGED_BY_EXPLOSION_AT_DIRECT_HIT_BY_PLAYER" ID="{372AE249-2AA2-4206-BF3B-67D5A07B0AF3}">
+							<ChildrenList>
+								<Action Name="" ID="{E4F48E8D-CAA5-40C0-899B-A17C8CBED294}" ShortID="5314920">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{459BD3FD-4E34-4CD3-B967-E7E4E0BFEC8F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2886F7C4-A5DB-49BA-9CC7-D0E5CA85A17A}" ShortID="1050386355">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{621DDBE8-EC69-4BDA-AC1A-7A802E5D7918}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{57E95C45-5F1B-4EBD-843B-000CA00B5634}" ShortID="149023098">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_279857248" ID="{92F8E06C-CDB8-488B-A1E6-5C46CDAA6999}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_radio_damaged" ID="{9944F11F-F097-4C9A-BFD7-AC97D2CB5007}">
+							<ChildrenList>
+								<Action Name="" ID="{625B09F8-3C71-4687-A1CD-DF00B106050D}" ShortID="21754923">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{BC2175B5-72C5-40E6-A229-750F8F98638C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8470AACC-DFCF-4E40-9FB0-F9D9C722CBAD}" ShortID="19547084">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{C1997F89-8D9F-446B-802C-8C06006B3F06}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B4B53E6A-E2B2-494E-9D8C-B15581E3A391}" ShortID="540210949">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="549161048" ID="{5A0798A3-FF7C-494A-B952-57F7ADF846E7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_fire_started" ID="{003F9CB2-6708-4ABA-B028-49F125B7AD15}">
+							<ChildrenList>
+								<Action Name="" ID="{0AD0E9A4-61D8-48E2-8682-909E77527905}" ShortID="165595372">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{472CA7F6-F5E0-4B93-9A18-CAF480BF7FC4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0CA02A9E-0396-420A-BC33-4E60EC479E8A}" ShortID="589835996">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{190A3556-FB1C-427F-B88A-78A1B6AD7EAD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_FIRE_STARTED_BY_PLAYER" ID="{D5D35DF5-2EB5-4E7C-AECF-FB73F55176DD}">
+							<ChildrenList>
+								<Action Name="" ID="{06E94D71-8000-44F9-B184-5D68A0A95451}" ShortID="51010031">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{7DA71F6D-7006-4A05-862A-3D5BE2DAC96D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8F1B1916-BB65-4068-8448-BD3AE173589B}" ShortID="954878234">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{54339FDB-210C-4B21-BC79-5B6ED94320CB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_CHASSIS_DAMAGED_BY_PLAYER" ID="{FB9599A5-BB93-47D0-9C80-CC9E9EB7E7C0}">
+							<ChildrenList>
+								<Action Name="" ID="{C2B0EEE2-C41B-4ABA-AC19-756B65F5E417}" ShortID="245721557">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{99CFF31B-3C96-42F3-BC29-109F0ECC94B7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6F3852E3-CD7D-4620-BE2D-59A5CE998CDF}" ShortID="966769482">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{960F00E8-1331-481F-AABA-F666C18FFB1B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D4A07F0E-5679-4BAB-A363-D7133937498B}" ShortID="285807714">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="628054595" ID="{10FC2E14-B97E-452F-9507-57FA0B6E23C8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_CHASSIS_DAMAGED_BY_PLAYER" ID="{46D8A034-E0A9-431B-B72E-0004B7936B9A}">
+							<ChildrenList>
+								<Action Name="" ID="{AC5E6DA6-0E90-452F-B1CD-6DF350581447}" ShortID="855342605">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{EC41BB37-A470-424F-A635-A2883F463948}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D8ECC74-C5A9-49DB-99E3-D75FD1E0E2C4}" ShortID="861082549">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{D09338E1-5089-47D2-80A5-F37EE14191AB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B22A79E2-AD3F-4FCB-81EE-A3A4C206A075}" ShortID="266828641">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="628054595" ID="{E9E9378D-7B71-471E-99A4-2F2B14206B27}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ammo_bay_damaged" ID="{2417C1DD-6AB6-41E7-B43E-26E624495769}">
+							<ChildrenList>
+								<Action Name="" ID="{977CEE75-6A95-4325-9BC7-05D6B1A92134}" ShortID="647634500">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{92973E5B-C132-482B-8D9C-4D1A22543575}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{09A8C4CE-618A-4409-9F15-EAA1997025D3}" ShortID="657341719">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{29182C91-6202-415E-AF53-2DF865898A60}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DA97E371-9684-45BA-A090-9852CA3DA897}" ShortID="559944172">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="626405962" ID="{55A1B0DD-E389-48D9-B06C-F5CA37E56959}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_HP_DAMAGED_BY_PROJECTILE_AND_GUN_DAMAGED_BY_PLAYER" ID="{E333E2F1-0A5C-49B5-9CAE-65AFD603294E}">
+							<ChildrenList>
+								<Action Name="" ID="{00C69421-8DC4-4E33-B44A-73D598C3A0A3}" ShortID="44047720">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{BCDDFA62-4AC4-484D-8A21-CD3143C7741D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{09409DB4-2EC3-4123-9555-44F62F970580}" ShortID="1007813000">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{52878D0F-6BF7-490D-8EB9-20B376424DBF}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D54FDD5E-5C14-4093-A6A8-06016E9B4B93}" ShortID="890316259">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="628054595" ID="{B59C3ACC-A8A4-4BCF-947B-F710CDB776A5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_VOICE_VEHICLE_DESTROYED" ID="{7FC1D654-CA9C-478B-8819-21AC9FEFF28E}">
+							<ChildrenList>
+								<Action Name="" ID="{BE22CAB7-E3F9-4685-A2F4-2FCFBB05FA2F}" ShortID="718701370">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{8A43115D-5776-4735-B313-DA2B1D790212}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3E6B7C32-3839-463F-928F-BEE8881612AA}" ShortID="135601940">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{2B00B441-DD31-4B3A-90CF-4CF16E2A7868}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_gunner_killed" ID="{B454E845-650E-4455-91D9-8244680ECD79}">
+							<ChildrenList>
+								<Action Name="" ID="{35A57D69-68EC-4924-99F7-2ACFE30542FA}" ShortID="350992917">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{1946F1B4-2C93-401B-BD04-CC86C65FEEEB}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{45065153-A49D-4938-BC50-537F0C7A6D8E}" ShortID="17656628">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{CC6E5DAA-761B-4811-97AC-E499A912D2B0}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_BY_PLAYER" ID="{E82841D5-9CD8-4FE5-818C-E5F794D5874F}">
+							<ChildrenList>
+								<Action Name="" ID="{891577BD-23F8-44D0-95C5-172D9B535589}" ShortID="199956322">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{4F763A02-B56F-4423-9B59-17A25278AB00}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AB645876-3CE0-4EFD-9BB5-690A3DD70849}" ShortID="179716443">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{4CC48843-FD5E-4E9B-AC05-658BE0F47D61}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{10351127-F8F3-4A22-8D64-30441E46AA98}" ShortID="921499305">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="05_892355650" ID="{7987E9C4-963C-4523-BE5D-5C3FA4C7BE3A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_fuel_tank_damaged" ID="{9E113E5A-877A-4BC5-94EE-32FC9D8BAF95}">
+							<ChildrenList>
+								<Action Name="" ID="{0341775B-C0E1-44BC-A26D-4ACAA66DB0AF}" ShortID="139164285">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{22CB6413-7D66-407F-8877-3A41758768C1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{59276F3D-8C37-4ECE-B727-842E8E307876}" ShortID="881477966">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{9C744B38-0CAF-4064-8346-C6BD28DB89FD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2563C3CD-5A9C-4803-9C18-AF9342F592E2}" ShortID="603296565">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="380925328" ID="{511CEEB7-F4E0-4511-BD12-CBE477C4BE01}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_gun_damaged" ID="{C2AF75A7-1F4B-4375-BB8C-F8248DF45D9E}">
+							<ChildrenList>
+								<Action Name="" ID="{5C805DA4-F0AF-4517-A926-C6B933B79BB3}" ShortID="111955630">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{DF082BB1-22C9-4833-8C8B-E023CAEE9F0F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3D32EE38-EE8C-4B8F-9B63-34636AA3FD1A}" ShortID="234321286">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{04DA7000-CA76-4458-89C0-ACAFBEB78ED4}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_NO_HP_DAMAGE_AT_NO_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER" ID="{BA7001D1-08AF-45C1-9709-221FCC45CB2D}">
+							<ChildrenList>
+								<Action Name="" ID="{A0BCF35A-3E3D-4E45-BAD1-4F5C33097713}" ShortID="125129835">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{F9766D17-0317-48F8-BF46-6C0E2B7E09FA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D419FBB4-1BC8-49B5-A4AD-F20B199A6C69}" ShortID="849514519">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{1E9D4688-1E88-4BFF-AC6B-52EF29F13E00}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D076BCAF-39CB-4FF7-8EF0-410FC49C3A40}" ShortID="150013914">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="628054595" ID="{0999A598-7A2A-4D1F-B2AF-513353D8511B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_turret_rotator_destroyed" ID="{EB7BDF1B-1D01-41BD-B63F-4FAD57CD7538}">
+							<ChildrenList>
+								<Action Name="" ID="{0E0BC6B5-3C66-4A7E-98CC-31B20C51659C}" ShortID="1048294458">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{E6B0B569-A812-44B6-912F-1938E8B4210D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{084F227D-A0BD-4544-AD91-BBD41333F9D5}" ShortID="338037082">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{D32E181A-A61A-46DB-94E9-CD6437C1AC99}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_engine_damaged" ID="{FAADD7C2-E6E0-491A-9043-14A258E9F8DB}">
+							<ChildrenList>
+								<Action Name="" ID="{462E1F19-39DF-42F1-855D-8971FDC47561}" ShortID="514577716">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{E3C813A4-C838-4886-8497-2724B2D7B2B3}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8E13F6C9-C1B6-443E-B2AA-C325BD85C2E0}" ShortID="150667478">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{BC972216-3F7A-4992-8E93-E286A76764D8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_VOICE_ENEMY_KILLED" ID="{B3B370D4-4C1A-4170-9A8F-2E6B34502570}">
+							<ChildrenList>
+								<Action Name="" ID="{C9BE8DFE-6F46-4F8B-BB0E-187D32EF5552}" ShortID="548334071">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{AD0E0CAF-557B-43B9-A9A0-F4E6DECDFD34}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9FDDDDF5-0BF7-4248-9427-DE94A4D57791}" ShortID="251321788">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{74B24DFF-3772-4B7D-98C4-ED92BAA14A4B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_surveying_devices_damaged" ID="{AF3A5F1E-AB8A-4951-86EC-D4A723CB33CC}">
+							<ChildrenList>
+								<Action Name="" ID="{6BA776A5-6FA5-4AA7-B766-F53BDEF32C38}" ShortID="93589588">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{64E14FDD-6DC4-49FD-A8C7-5F7B132C8E53}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{888EE7B7-13F3-46B9-864F-068AFB50B133}" ShortID="689260604">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{C91E8410-CAB4-4630-B907-CFB7813DCD1C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_track_functional_can_move" ID="{0BF76844-87DE-40BB-A170-6E47CA2B23AE}">
+							<ChildrenList>
+								<Action Name="" ID="{739581DF-7FED-4FCD-A632-DD28981E2A12}" ShortID="247791476">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{E48725F2-AD35-4F3A-836E-B8F28358A718}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{27BD2FD6-BA6E-4383-B8AC-9B9FF3C42FCA}" ShortID="339668411">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{D0B27FE7-8767-4532-BBBB-02081D1861DA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_surveying_devices_functional" ID="{86E1F77C-D969-45D2-BB8A-85B8F158FD1B}">
+							<ChildrenList>
+								<Action Name="" ID="{21471D2F-D449-4019-B6F1-0FC7A5BB0918}" ShortID="179282674">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{8991E52F-9FB5-4644-8FBE-EC9A4818338C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{819BD2ED-27EC-4005-A21D-0EEA47E55F98}" ShortID="363352873">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{ED655A93-2D4C-4ACD-9D82-6A120ADB8284}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_track_damaged" ID="{35ABF3E2-6F66-40A1-8AE8-DB99E3E4763F}">
+							<ChildrenList>
+								<Action Name="" ID="{C2A1CADF-3259-4BB8-AA80-E5256EA3B5E9}" ShortID="745032484">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{02DF2ADE-C005-481C-B5CD-EFDDFD74B1C5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6F11239E-EE33-4892-9887-495E38B0B0BB}" ShortID="957284063">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{761DFC60-AEF2-4160-888B-FD8D19C08391}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_VOICE_ALLY_KILLED" ID="{1CA82C5F-D88C-423B-B363-DDEE56418963}">
+							<ChildrenList>
+								<Action Name="" ID="{6D639322-ABEC-4B0A-851F-4241F812DB00}" ShortID="376511936">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{25F980F1-A01A-4B03-8A80-1C1DCDF889C7}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5C7494D4-482C-49F0-88B7-7AFB06A8A97F}" ShortID="439443043">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{74717BD9-14D9-4AC7-A769-9F6F0A77703B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_radioman_killed" ID="{142410A1-885E-4CA0-B3C3-DC149FA3114F}">
+							<ChildrenList>
+								<Action Name="" ID="{E93D3DBA-AB2E-4D5C-9B70-B9AFEA376A48}" ShortID="879709978">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{54D70F30-10CE-4472-BDF6-A34435EF70E2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C8F067DE-699A-409C-9A83-0CC352C9A50A}" ShortID="525104337">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{78C6E1CB-4CA2-4D6F-9F7C-D6F9FE3895F8}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_fire_stopped" ID="{172D5E05-0F4E-4C0E-8139-92EE8F58639B}">
+							<ChildrenList>
+								<Action Name="" ID="{5A044B28-723A-4A42-AF44-76B521975CD7}" ShortID="330645009">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{F13ECC6E-6705-4912-A9F5-20CC3AC0EAFC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{26939D61-82E5-486E-8B33-E0A1B11552A8}" ShortID="1029730696">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{FB31750D-CCB5-4842-BAD1-5F68307D9EDC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_commander_killed" ID="{B7C075C4-08A3-463F-B385-2ABD86D1FBFA}">
+							<ChildrenList>
+								<Action Name="" ID="{305164E3-4412-497C-BEB2-B17B9440FF3A}" ShortID="449641145">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{A4656D3D-DB71-482F-9289-4E8578340925}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A737C3EC-B76F-4664-BD29-AE07220BA8A0}" ShortID="478431604">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{F595DB6E-41D3-4CF6-91DD-4C45AA36002A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_track_cut" ID="{4BD159FB-25C8-468E-B43F-E8BF21184FDD}">
+							<ChildrenList>
+								<Action Name="" ID="{846F3F2F-B5C9-4C7F-AD22-8364A5FBDA14}" ShortID="938958674">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{751CDE5C-20ED-4343-8FF8-79EEAA72794E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4D81830C-FCC0-430F-BE6A-C127EED864EB}" ShortID="830141767">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{F547C7C4-33A4-469E-B18F-05C28B497EB1}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_track_functional" ID="{9C1FD69A-B598-4AD0-8B2D-75209DB8B975}">
+							<ChildrenList>
+								<Action Name="" ID="{D70EBE0A-C407-45D2-BB9D-1B40850A54D8}" ShortID="228393529">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{F6B057E0-DF78-495F-B480-8851F0944E37}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AF81C17A-B132-4B47-B3D2-C95A91A60E0B}" ShortID="400781851">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{EBF2D472-ECED-47E5-A2DC-9A4082147D4E}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_track_destroyed" ID="{2BE2AC21-F24D-4AC1-92B3-10BDF8CDC8F6}">
+							<ChildrenList>
+								<Action Name="" ID="{F410D5AA-E601-4584-BD2B-2CD706FF5BAC}" ShortID="278960353">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{435ADB66-313B-4A7C-B9FB-CBD73C3E7B51}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{46696AB9-EB63-4CAC-88C3-45750D07F586}" ShortID="444387061">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{005CBF27-3C87-402B-A3AD-AD9152FCF653}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_gun_functional" ID="{97A29AB5-1AE9-4239-B340-73BCD8B145A7}">
+							<ChildrenList>
+								<Action Name="" ID="{5F826321-78E1-4864-B35C-A816DC7E1E28}" ShortID="21970908">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{D200F960-0CF9-4B34-8DA9-7F074B4C1487}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{57072FB2-302F-4EB7-8737-6A689DBA095A}" ShortID="476457249">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{3EDF1F3B-0457-4267-9859-879DBCE8B517}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_driver_killed" ID="{818CB843-15A9-4ED9-89A7-43F6674AEABC}">
+							<ChildrenList>
+								<Action Name="" ID="{51B6A3B1-6F8D-4453-A17C-22E563F41FB0}" ShortID="220513158">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{F4D96A4E-4C8C-4BE1-9A2E-E63BAAB80745}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4278FE86-7AAC-46C9-B27F-68A90D913BE3}" ShortID="711042018">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{69C0139A-0B3D-4549-ADFE-04CC4AD160E9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_loader_killed" ID="{66AFB000-1176-4750-84E5-240C9FBFD42C}">
+							<ChildrenList>
+								<Action Name="" ID="{530576F0-B27B-4FED-BD96-122FEEDB4BB8}" ShortID="226062367">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{A6D8EF20-4C11-41EE-8581-5D2435018F54}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C5A5343A-7337-456F-B843-56076CD522D8}" ShortID="1060632546">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{EAC185F9-D1A3-4471-882D-E98E42058787}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_ENEMY_NO_HP_DAMAGE_AT_ATTEMPT_AND_GUN_DAMAGED_BY_PLAYER" ID="{FCED386C-AA59-4E00-A42E-7CD21F30EE3C}">
+							<ChildrenList>
+								<Action Name="" ID="{3A461C95-C762-42DD-B220-8F7449B4C7D4}" ShortID="1025629309">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{DA4B5689-DA8A-46DD-97F2-26CFBF141BD6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B995F1D8-7601-4208-96A8-E1D968F57D08}" ShortID="798634830">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{EDB48B76-D9E8-4ED7-B046-4E5057A0BF80}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{74B743BC-8DD1-4E21-A5C8-7D1625CAA0A2}" ShortID="415276127">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="628054595" ID="{8CEC585A-FB70-41B5-ABB9-A52E3856E586}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_AUTO_ON" ID="{B307625B-89E9-4EAA-A219-52A9439974BF}">
+							<ChildrenList>
+								<Action Name="" ID="{D03E7559-3C82-44F9-AB7D-288489FC804A}" ShortID="821421">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{BF2CFD88-E23C-4B66-A9C8-6BF239C875D5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C9065892-CAD5-4746-BDFA-1F6AFBC77B7F}" ShortID="886945186">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{A312850F-F8ED-41CD-AF38-C8CF752E1CBD}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0DE5945D-FC7D-44C8-AC5A-B16A65AD3B8D}" ShortID="319098304">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1550848" ID="{877BDF32-4145-48D9-BA1F-4A0E8A989E96}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RXD_AUTO_OFF" ID="{60E0150E-4E86-412F-BBFA-18CD484A37A0}">
+							<ChildrenList>
+								<Action Name="" ID="{FFAE29A5-747B-4BA5-9764-7A92838C91C4}" ShortID="587511300">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="f" ID="{4AE12C04-61FB-45D0-9E1F-EEA36B2BCF6C}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{789A28A4-4161-4133-9E86-96103F3D4716}" ShortID="359537366">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="m" ID="{FFA2984D-C688-4962-9F8F-7B242B712F9A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A1746661-AEE2-4B3D-A7F2-35E2B8788E99}" ShortID="420665414">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="586572906" ID="{D01B51C6-DE6B-45B2-AAF1-A5DEABA0B8B9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
