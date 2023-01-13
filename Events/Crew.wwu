@@ -1384,6 +1384,12 @@
 						</Event>
 						<Event Name="RXD_AUTO_ON" ID="{B307625B-89E9-4EAA-A219-52A9439974BF}">
 							<ChildrenList>
+								<Action Name="" ID="{EB5BD8BE-248E-4056-A465-41F09BF647F4}" ShortID="375881560">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 								<Action Name="" ID="{D03E7559-3C82-44F9-AB7D-288489FC804A}" ShortID="821421">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="0.5"/>
@@ -1415,6 +1421,12 @@
 						</Event>
 						<Event Name="RXD_AUTO_OFF" ID="{60E0150E-4E86-412F-BBFA-18CD484A37A0}">
 							<ChildrenList>
+								<Action Name="" ID="{917D8573-A305-4E8C-80FF-CCB4E975120C}" ShortID="1063147954">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
 								<Action Name="" ID="{FFAE29A5-747B-4BA5-9764-7A92838C91C4}" ShortID="587511300">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="0.5"/>

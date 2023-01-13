@@ -3609,6 +3609,36 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<Sound Name="626405962" ID="{ECF5A0ED-7C58-48BC-A8E5-AAB86B176128}" ShortID="264082642">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{6AAC8ED3-97DF-4F25-9742-C80B0CD66881}" ShortID="349543474">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{C4333628-E802-4D2E-B502-4D082FD32455}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -20282,6 +20312,36 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<Sound Name="255963714" ID="{86141958-F9B2-4170-A04F-67D19828BE9E}" ShortID="423952206">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{DC1C3E94-D48C-4484-B8D4-FAB56C8F4E92}" ShortID="569493345">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{893A2D75-3728-4E5D-9CE7-80BD2330CD53}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -20419,6 +20479,36 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<Sound Name="578989487" ID="{58E6201E-D5FF-4175-83C7-8FF0B22A2E63}" ShortID="779132663">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{512214BC-DC1D-446D-9A0B-A3EC79A73B03}" ShortID="621299277">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{47E79842-9E9B-4E35-9CE0-8CC78AC0BECB}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -20600,6 +20690,36 @@
 													</ChildrenList>
 												</RandomSequenceContainer>
 												<Sound Name="426257817" ID="{1CA87E57-23A7-4252-A0EA-57B486C8C936}" ShortID="417418164">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{DC81F7E7-7D85-47C8-BD96-D337AD0B290C}" ShortID="531274934">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{B4B388DE-5E43-46BE-8792-FFE9DA1FF7CA}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -20634,6 +20754,36 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="255963714" ID="{E8492D72-0993-45C0-A237-1C152AA73E36}" ShortID="770292185">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{4B2E0AFA-3347-44CB-996F-DB3D6B0BD03C}" ShortID="725650602">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{AF6F151A-94D7-4CD4-AC82-1E0308677F98}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -20671,6 +20821,36 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="748651549" ID="{0DBD29E1-95D9-4BA8-90CD-7C4FBE361140}" ShortID="247927069">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<RTPCList>
+																<RTPC Name="" ID="{891CEA50-CC6C-4335-B8EA-17C996C66C5B}" ShortID="383817783">
+																	<ReferenceList>
+																		<Reference Name="ControlInput">
+																			<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<Curve Name="" ID="{001C7E5B-1F8F-4B87-91F9-BE54E68960EC}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-200</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>1</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</RTPC>
+															</RTPCList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
