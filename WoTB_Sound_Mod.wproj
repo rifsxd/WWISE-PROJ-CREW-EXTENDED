@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.14" WwiseBuild="7616">
+<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.15" WwiseBuild="7667">
 	<ProjectInfo>
 		<Project Name="WoTB_Sound_Mod" ID="{702D8ABE-D8B7-4693-9F84-911E09C050EC}">
 			<Platforms>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{501E3692-C057-46E3-A406-3FAA6463B40B}"/>
 			</Platforms>
 			<LanguageList>
-				<Language Name="English(US)" ID="{5D87FA6B-7056-4F5F-BC4E-B5CDE4FD57BC}"/>
 				<Language Name="External" ID="{A78AFAC5-A227-475F-940D-284175892AB5}"/>
 				<Language Name="Mixed" ID="{820F0EC8-9785-48A4-966F-0F671C32C3BA}"/>
 				<Language Name="rxd_cn" ID="{1768346E-CBEB-44FB-ADD5-AC37340F9896}"/>
 				<Language Name="rxd_cs" ID="{62143390-2C93-4728-972A-B70B2A8EB992}"/>
 				<Language Name="rxd_de" ID="{1B7AD461-873D-4108-AF70-0E2FE8C4EF43}"/>
 				<Language Name="rxd_fr" ID="{4F15D87A-B3A2-418A-862C-758C720B888B}"/>
-				<Language Name="rxd_fury" ID="{3C48759F-157B-445D-A3E4-52B511BE5ABE}"/>
 				<Language Name="rxd_gb" ID="{4ADDC49C-BBCE-4C87-AD9A-0EEF1E1CE296}"/>
 				<Language Name="rxd_gup" ID="{BA40A05E-E8AA-46C8-8BEC-1D4A3A886E9E}"/>
 				<Language Name="rxd_it" ID="{93DAD60C-6EF0-454D-83DE-D36413D36A88}"/>
@@ -26,6 +24,7 @@
 				<Language Name="SFX" ID="{0342A431-B7EE-40D4-85A8-92C3EB27E7CA}"/>
 			</LanguageList>
 			<PropertyList>
+				<Property Name="DefaultLanguage" Type="string" Value="rxd_cn"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
@@ -9656,7 +9655,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>
@@ -10506,7 +10505,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ASIO Output" PluginType="7" CompanyID="0" PluginID="168">
+				<SharedPropertyList ClassName="" PluginType="7" CompanyID="0" PluginID="168">
 					<PropertyList>
 						<Property Name="BaseChannel" Type="int32">
 							<ValueList>
@@ -10629,7 +10628,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Channel Router" PluginType="6" CompanyID="0" PluginID="172">
+				<SharedPropertyList ClassName="" PluginType="6" CompanyID="0" PluginID="172">
 					<PropertyList>
 						<Property Name="Color" Type="int16">
 							<ValueList>
@@ -10648,7 +10647,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="0" PluginID="173">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="173">
 					<PropertyList>
 						<Property Name="Channel" Type="Real32">
 							<ValueList>
@@ -10795,7 +10794,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="SoundSeed Grain" PluginType="2" CompanyID="0" PluginID="183">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="183">
 					<PropertyList>
 						<Property Name="Amplitude" Type="Real32">
 							<ValueList>
@@ -11679,7 +11678,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ParameterModulatorAssociation" PluginType="0" CompanyID="0" PluginID="185">
+				<SharedPropertyList ClassName="" PluginType="0" CompanyID="0" PluginID="185">
 					<PropertyList>
 						<Property Name="ModDisplayName" Type="string">
 							<ValueList>
@@ -12181,7 +12180,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="ASIO Input" PluginType="2" CompanyID="0" PluginID="204">
+				<SharedPropertyList ClassName="" PluginType="2" CompanyID="0" PluginID="204">
 					<PropertyList>
 						<Property Name="BaseChannel" Type="int32">
 							<ValueList>
@@ -12727,9 +12726,9 @@
 			</EnvironmentalSettings>
 			<LogCentralIgnoreList>
 				<IgnoreItem MessageId="None"/>
-				<IgnoreItem MessageId="BankIsMissingFiles"/>
-				<IgnoreItem MessageId="NoActiveSource"/>
 				<IgnoreItem MessageId="MediaDuplicated"/>
+				<IgnoreItem MessageId="NoActiveSource"/>
+				<IgnoreItem MessageId="BankIsMissingFiles"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}"/>
 			<PhysicalFolderList>

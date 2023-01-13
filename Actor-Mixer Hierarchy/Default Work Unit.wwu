@@ -3608,38 +3608,7 @@
 														</Sound>
 													</ChildrenList>
 												</RandomSequenceContainer>
-												<Sound Name="626405962" ID="{55A1B0DD-E389-48D9-B06C-F5CA37E56959}" ShortID="118027509">
-													<PropertyList>
-														<Property Name="IsVoice" Type="bool" Value="True"/>
-														<Property Name="Volume" Type="Real64">
-															<RTPCList>
-																<RTPC Name="" ID="{6267AD50-DBF9-4385-A8D6-85FBDA5E6FFB}" ShortID="651273668">
-																	<ReferenceList>
-																		<Reference Name="ControlInput">
-																			<ObjectRef Name="RTPC_ext_settings_volume_master_music" ID="{C41E977A-74E1-454E-9C86-0294FFF7E74E}" WorkUnitID="{1D110D10-3D4B-410B-ACE0-4B56B209EC21}"/>
-																		</Reference>
-																	</ReferenceList>
-																	<Curve Name="" ID="{8EAF1FF6-1CD0-40B2-A39D-CFAF02EE0657}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-200</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>1</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</RTPC>
-															</RTPCList>
-														</Property>
-													</PropertyList>
+												<Sound Name="626405962" ID="{ECF5A0ED-7C58-48BC-A8E5-AAB86B176128}" ShortID="264082642">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -3649,16 +3618,16 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="626405962" ID="{13A1ADB1-BF30-4F54-8E2E-7CE1710201EE}">
-															<Language>English(US)</Language>
+														<AudioFileSource Name="626405962" ID="{F01357E0-980A-44A5-AB85-35720F65B1E8}">
+															<Language>SFX</Language>
 															<AudioFile>rxd_ammo_bay_damaged\626405962.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="82454695"/>
+																<MediaID ID="82454694"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="626405962" ID="{13A1ADB1-BF30-4F54-8E2E-7CE1710201EE}" Platform="Linked"/>
+														<ActiveSource Name="626405962" ID="{F01357E0-980A-44A5-AB85-35720F65B1E8}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
