@@ -902,6 +902,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="586572906" ID="{D01B51C6-DE6B-45B2-AAF1-A5DEABA0B8B9}" ShortID="410490886">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{7D7E6F8A-64F0-4E3E-81F3-C60674F0D4B8}" ShortID="490159498">
@@ -941,10 +942,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="586572906" ID="{D3338F74-4805-4CAA-9026-5AF05C82085E}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>04_967851434\586572906.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="726336957"/>
+																<MediaID ID="726336958"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -1634,6 +1635,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="1550848" ID="{877BDF32-4145-48D9-BA1F-4A0E8A989E96}" ShortID="940411592">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{31DD6457-9568-4FC9-8810-5037DBD45912}" ShortID="526707532">
@@ -1673,10 +1675,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="1550848" ID="{8B5E5060-A934-4DA8-A769-C11EF1894F32}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>04_1726860756\1550848.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="80060062"/>
+																<MediaID ID="80060063"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -2022,6 +2024,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="628054595" ID="{B59C3ACC-A8A4-4BCF-947B-F710CDB776A5}" ShortID="439661787">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{E3F145C8-145C-41EF-886A-92390DF97518}" ShortID="419439215">
@@ -2061,10 +2064,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="628054595" ID="{82D738EB-04D0-42B1-BC94-9656C234627E}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>04_2078976664\628054595.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="507138832"/>
+																<MediaID ID="507138833"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -3266,6 +3269,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="628054595" ID="{0999A598-7A2A-4D1F-B2AF-513353D8511B}" ShortID="119079418">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{A2C53810-FB29-410C-9740-BAF101CBFB7E}" ShortID="514088648">
@@ -3305,10 +3309,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="628054595" ID="{659EBDB1-7F2F-47EC-98D3-62037159A546}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>04_4219250842\628054595.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="182077007"/>
+																<MediaID ID="182077008"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -3610,6 +3614,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="626405962" ID="{ECF5A0ED-7C58-48BC-A8E5-AAB86B176128}" ShortID="264082642">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{6AAC8ED3-97DF-4F25-9742-C80B0CD66881}" ShortID="349543474">
@@ -3649,10 +3654,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="626405962" ID="{F01357E0-980A-44A5-AB85-35720F65B1E8}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_ammo_bay_damaged\626405962.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="82454694"/>
+																<MediaID ID="37824647"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -5736,6 +5741,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="628054595" ID="{10FC2E14-B97E-452F-9507-57FA0B6E23C8}" ShortID="1056333929">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{FFFB80AD-5778-4883-9817-3FEB531F9D73}" ShortID="176777590">
@@ -5775,10 +5781,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="628054595" ID="{EFF82D54-F1C8-41CD-B1E7-9685F7024CDA}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_enemy_hp_damaged_by_projectile_and_chassis_damaged_by_player\628054595.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="652160279"/>
+																<MediaID ID="652160280"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -6505,6 +6511,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="628054595" ID="{E9E9378D-7B71-471E-99A4-2F2B14206B27}" ShortID="279033207">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{E4A52FEF-8855-4581-ACA7-CC4F5894BA5F}" ShortID="270939372">
@@ -6544,10 +6551,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="628054595" ID="{D0A4B28B-887E-4FC3-B6A9-4BC3E653A505}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_enemy_no_hp_damage_at_attempt_and_chassis_damaged_by_player\628054595.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="699806166"/>
+																<MediaID ID="699806167"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -6893,6 +6900,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="628054595" ID="{8CEC585A-FB70-41B5-ABB9-A52E3856E586}" ShortID="668547969">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{56186F24-9FF7-41A9-96DF-A2E78F8D9D03}" ShortID="720899825">
@@ -6932,10 +6940,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="628054595" ID="{9813A516-7FAA-4785-A327-C67F4CF423F6}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_enemy_no_hp_damage_at_attempt_and_gun_damaged_by_player\628054595.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="927545386"/>
+																<MediaID ID="927545387"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7618,6 +7626,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="628054595" ID="{57C9B7FD-4903-42F1-B2C9-73B00FD7ACFB}" ShortID="708209637">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{41BD448B-0A72-484F-9B7D-CE14CDB794A8}" ShortID="725338648">
@@ -7657,10 +7666,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="628054595" ID="{A5E3B66C-4D83-4AE6-96A3-F0E9CE47FDDE}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_enemy_no_hp_damage_at_no_attempt_and_chassis_damaged_by_player\628054595.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="829617731"/>
+																<MediaID ID="829617732"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -11102,6 +11111,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="380925328" ID="{511CEEB7-F4E0-4511-BD12-CBE477C4BE01}" ShortID="460399871">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{99742D43-1BB0-49A5-A5DE-F981332C1AA6}" ShortID="122002625">
@@ -11141,10 +11151,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="380925328" ID="{42AF5AEE-6882-46F5-9179-4F0434FC2B54}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_fuel_tank_damaged\380925328.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="495864321"/>
+																<MediaID ID="495864322"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -12950,6 +12960,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="549161048" ID="{5A0798A3-FF7C-494A-B952-57F7ADF846E7}" ShortID="402830109">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{17146B6B-E204-4CD2-BC0D-2E59BAB41B76}" ShortID="498805155">
@@ -12989,10 +13000,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="549161048" ID="{9B14BDFA-2232-4FAB-BDBF-29223B040558}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_radio_damaged\549161048.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="760637221"/>
+																<MediaID ID="760637222"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -14318,6 +14329,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="830383238" ID="{2722C53C-59AE-443C-9A92-240FDF49D13F}" ShortID="234593656">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{97C89EAE-A77D-492C-A623-5F9EBF952BD4}" ShortID="423542565">
@@ -14357,10 +14369,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="830383238" ID="{ECE537A9-80E8-4C05-9699-EDDE15ACF233}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_surveying_devices_destroyed\830383238.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="548428482"/>
+																<MediaID ID="548428483"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -20313,6 +20325,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="255963714" ID="{86141958-F9B2-4170-A04F-67D19828BE9E}" ShortID="423952206">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{DC1C3E94-D48C-4484-B8D4-FAB56C8F4E92}" ShortID="569493345">
@@ -20352,10 +20365,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="255963714" ID="{7F392111-27F2-44AF-B5A3-8518AFB6C019}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>04_82570519\255963714.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="631373983"/>
+																<MediaID ID="136013034"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -20480,6 +20493,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="578989487" ID="{58E6201E-D5FF-4175-83C7-8FF0B22A2E63}" ShortID="779132663">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{512214BC-DC1D-446D-9A0B-A3EC79A73B03}" ShortID="621299277">
@@ -20519,10 +20533,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="578989487" ID="{43CEA4CF-B2DB-4CF3-B722-2758FD7156C3}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_qcommand_hold_position\578989487.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="549656782"/>
+																<MediaID ID="549656783"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -20691,6 +20705,7 @@
 												</RandomSequenceContainer>
 												<Sound Name="426257817" ID="{1CA87E57-23A7-4252-A0EA-57B486C8C936}" ShortID="417418164">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{DC81F7E7-7D85-47C8-BD96-D337AD0B290C}" ShortID="531274934">
@@ -20730,10 +20745,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="426257817" ID="{F9D29A16-E0C1-418C-A2F1-67B6381136FE}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>rxd_qcommand_positive\426257817.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="330287610"/>
+																<MediaID ID="330287611"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -20755,6 +20770,7 @@
 											<ChildrenList>
 												<Sound Name="255963714" ID="{E8492D72-0993-45C0-A237-1C152AA73E36}" ShortID="770292185">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{4B2E0AFA-3347-44CB-996F-DB3D6B0BD03C}" ShortID="725650602">
@@ -20797,10 +20813,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="255963714" ID="{D333CBD3-EAEA-43D6-9507-517A541929EA}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>04_82570519\255963714.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="631373983"/>
+																<MediaID ID="136013034"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -20822,6 +20838,7 @@
 											<ChildrenList>
 												<Sound Name="748651549" ID="{0DBD29E1-95D9-4BA8-90CD-7C4FBE361140}" ShortID="247927069">
 													<PropertyList>
+														<Property Name="IsVoice" Type="bool" Value="True"/>
 														<Property Name="Volume" Type="Real64">
 															<RTPCList>
 																<RTPC Name="" ID="{891CEA50-CC6C-4335-B8EA-17C996C66C5B}" ShortID="383817783">
@@ -20861,10 +20878,10 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="748651549" ID="{54B27A58-838E-41A4-A517-7A5AA3E8C0D7}">
-															<Language>SFX</Language>
+															<Language>rxd_cn</Language>
 															<AudioFile>748651549.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="105781691"/>
+																<MediaID ID="105781692"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
