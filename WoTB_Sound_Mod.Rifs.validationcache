@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="97">
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\WoTB_Sound_Mod.wproj" DateLow="1673858391" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\WoTB_Sound_Mod.Rifs.wsettings" DateLow="1673867285" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\WoTB_Sound_Mod.Rifs.wsettings" DateLow="1673891559" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1673628643" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Virtual Acoustics\Default Work Unit.wwu" DateLow="1673628643" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Triggers\Default Work Unit.wwu" DateLow="1673628643" DateHigh="0"/>
@@ -38,7 +38,7 @@
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\Twister_2020.wwu" DateLow="1673628592" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\Surface.wwu" DateLow="1673628592" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\small.wwu" DateLow="1673628592" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\Reload.wwu" DateLow="1673865736" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\Reload.wwu" DateLow="1673891554" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\Quick_Commands.wwu" DateLow="1673628592" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\PC_NPC.wwu" DateLow="1673628592" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Events\NY_2021.wwu" DateLow="1673628592" DateHigh="0"/>
@@ -83,7 +83,7 @@
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1673628592" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1673628592" DateHigh="0"/>
 	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1673628592" DateHigh="0"/>
-	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673864146" DateHigh="0"/>
+	<ValidationCacheItem File="F:\Github\WWISE-PROJ-CREW-EXTENDED\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1673869722" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Github\WWISE-PROJECT\WoTB_Sound_Mod.wproj" DateLow="1653524132" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Github\WWISE-PROJECT\WoTB_Sound_Mod.Rifs.wsettings" DateLow="1653689453" DateHigh="0"/>
 	<ValidationCacheItem File="E:\Github\WWISE-PROJECT\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1653524132" DateHigh="0"/>
