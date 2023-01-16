@@ -9,18 +9,31 @@
 				<Language Name="External" ID="{A78AFAC5-A227-475F-940D-284175892AB5}"/>
 				<Language Name="Mixed" ID="{820F0EC8-9785-48A4-966F-0F671C32C3BA}"/>
 				<Language Name="rxd_cn" ID="{1768346E-CBEB-44FB-ADD5-AC37340F9896}"/>
+				<Language Name="rxd_cn_auto" ID="{2CAB1458-9EF7-4883-9C23-395284FFCE48}"/>
 				<Language Name="rxd_cs" ID="{62143390-2C93-4728-972A-B70B2A8EB992}"/>
+				<Language Name="rxd_cs_auto" ID="{4E6B2DE2-0DF1-4DC2-A5AC-5A3B3FE99E70}"/>
 				<Language Name="rxd_de" ID="{1B7AD461-873D-4108-AF70-0E2FE8C4EF43}"/>
+				<Language Name="rxd_de_auto" ID="{270E7893-A471-4EFB-B170-8701231D5DF4}"/>
 				<Language Name="rxd_fr" ID="{4F15D87A-B3A2-418A-862C-758C720B888B}"/>
+				<Language Name="rxd_fr_auto" ID="{20C45655-1449-44AD-AF0C-71416F8B9299}"/>
 				<Language Name="rxd_gb" ID="{4ADDC49C-BBCE-4C87-AD9A-0EEF1E1CE296}"/>
+				<Language Name="rxd_gb_auto" ID="{C7A2B0F4-1913-40BB-A03F-8BCC0352B82D}"/>
 				<Language Name="rxd_gup" ID="{BA40A05E-E8AA-46C8-8BEC-1D4A3A886E9E}"/>
+				<Language Name="rxd_gup_auto" ID="{611E9F9F-40DB-437A-9436-D89684044258}"/>
 				<Language Name="rxd_it" ID="{93DAD60C-6EF0-454D-83DE-D36413D36A88}"/>
+				<Language Name="rxd_it_auto" ID="{6DDF9D8A-1DF3-416D-A547-B0C6194B32A5}"/>
 				<Language Name="rxd_jp" ID="{A2EC19AB-6972-4B3A-8D22-A342954115D9}"/>
+				<Language Name="rxd_jp_auto" ID="{7F08D407-43E4-4CB4-8090-E5892EF5D352}"/>
 				<Language Name="rxd_pl" ID="{32453868-5F42-40C3-97F2-508782F28BE7}"/>
+				<Language Name="rxd_pl_auto" ID="{6E00EEF8-E328-4F87-9A06-363090AD7CE0}"/>
 				<Language Name="rxd_ru" ID="{6F8ACA9B-B299-40D7-B97F-EFB2BE43065A}"/>
+				<Language Name="rxd_ru_auto" ID="{C96DC7FF-5B02-4DE5-A086-FCE5BFCF5B8D}"/>
 				<Language Name="rxd_sab" ID="{9C06F728-B05D-4EDF-9F8B-85AE33FD446C}"/>
+				<Language Name="rxd_sab_auto" ID="{5211E7B3-C5AB-432C-B5C4-2B372C01BB3E}"/>
 				<Language Name="rxd_sv" ID="{B7EFA20C-5B9F-49F4-BF34-75665ED34327}"/>
+				<Language Name="rxd_sv_auto" ID="{CEC6B143-2817-4341-B93F-3FBB28824A34}"/>
 				<Language Name="rxd_us" ID="{F9DA4E32-90F3-45BD-81AD-A02B04AD6E74}"/>
+				<Language Name="rxd_us_auto" ID="{1BE260BE-58AF-49D7-8D89-1C8D6FD4E1DE}"/>
 				<Language Name="SFX" ID="{0342A431-B7EE-40D4-85A8-92C3EB27E7CA}"/>
 			</LanguageList>
 			<PropertyList>
@@ -12726,8 +12739,8 @@
 			</EnvironmentalSettings>
 			<LogCentralIgnoreList>
 				<IgnoreItem MessageId="None"/>
-				<IgnoreItem MessageId="MediaDuplicated"/>
 				<IgnoreItem MessageId="NoActiveSource"/>
+				<IgnoreItem MessageId="MediaDuplicated"/>
 				<IgnoreItem MessageId="BankIsMissingFiles"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}"/>
