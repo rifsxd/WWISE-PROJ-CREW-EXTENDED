@@ -36934,6 +36934,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Reload_Switch" ID="{89116383-48CD-4961-A6D4-1B1713E10FB2}" ShortID="938807410">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -37933,7 +37940,7 @@
 								<StateRef Name="STATE_view_play_mode_arcade" ID="{13248C08-81CA-4C92-96B4-B17F94BCFD5C}"/>
 								<CustomState Name="" ID="{FBEF01E0-4CE1-407E-B3F4-47003BB476E8}" ShortID="532882405">
 									<PropertyList>
-										<Property Name="Lowpass" Type="int16" Value="40"/>
+										<Property Name="Lowpass" Type="int16" Value="50"/>
 									</PropertyList>
 								</CustomState>
 							</CustomState>
