@@ -37071,7 +37071,6 @@
    {
     "Id": "1261675229",
     "Language": "rxd_sab_auto",
-    "Hash": "1981071913",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover_crew",
     "ShortName": "voiceover_crew",
     "Path": "rxd_sab_auto\\voiceover_crew.bnk",
@@ -86456,6 +86455,7 @@
    {
     "Id": "1261675229",
     "Language": "rxd_us_auto",
+    "Hash": "1210331320",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\voiceover_crew",
     "ShortName": "voiceover_crew",
     "Path": "rxd_us_auto\\voiceover_crew.bnk",

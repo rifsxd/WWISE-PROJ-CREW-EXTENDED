@@ -24257,7 +24257,7 @@
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1261675229" Language="rxd_sab_auto" Hash="1981071913">
+		<SoundBank Id="1261675229" Language="rxd_sab_auto">
 			<ObjectPath>\SoundBanks\Default Work Unit\voiceover_crew</ObjectPath>
 			<ShortName>voiceover_crew</ShortName>
 			<Path>rxd_sab_auto\voiceover_crew.bnk</Path>
@@ -56585,7 +56585,7 @@
 				<GameParameter Id="244438798" Name="RTPC_ext_settings_volume_master_music" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_music"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1261675229" Language="rxd_us_auto">
+		<SoundBank Id="1261675229" Language="rxd_us_auto" Hash="1210331320">
 			<ObjectPath>\SoundBanks\Default Work Unit\voiceover_crew</ObjectPath>
 			<ShortName>voiceover_crew</ShortName>
 			<Path>rxd_us_auto\voiceover_crew.bnk</Path>
